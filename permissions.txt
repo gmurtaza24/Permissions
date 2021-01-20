@@ -1,0 +1,4788 @@
+# file: .
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: cgrules.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: shadow
+# owner: root
+# group: root
+user::---
+group::---
+other::---
+
+# file: opt
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: cron.daily
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: cron.daily/logrotate
+# owner: root
+# group: root
+user::rwx
+group::---
+other::---
+
+# file: cron.daily/tmpwatch
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: cron.daily/man-db.cron
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: asound.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: issue
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: host.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: networks
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: rwtab.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dracut.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: cgsnapshot_blacklist.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sudoers
+# owner: root
+# group: root
+user::r--
+group::r--
+other::---
+
+# file: .pwd.lock
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: ld.so.cache
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: resolv.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: modprobe.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: modprobe.d/ixgbevf.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: modprobe.d/blacklist.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sudo-ldap.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::---
+
+# file: xdg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: xdg/autostart
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: xinetd.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: xinetd.d/rsync
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysctl.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: rpm
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rpm/macros.syspython
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: rpm/macros.fjava
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: rpm/macros.perl
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: rpm/macros.ghc-srpm
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: rpm/macros.jpackage
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: rpm/macros.python27
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: rpm/macros.checkbuild
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: rpm/macros.disttag
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: gss
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: gss/mech.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: DIR_COLORS
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: logrotate.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: logrotate.d/syslog
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: logrotate.d/psacct
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: logrotate.d/yum
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: logrotate.d/dracut
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: ppp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: ppp/ip-up
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: ppp/ip-up.ipv6to4
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: ppp/peers
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: ppp/ipv6-down
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: ppp/ip-down.ipv6to4
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: ppp/ip-down
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: ppp/ipv6-up
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: systemd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: systemd/system
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: systemd/system/amazon-ssm-agent.service
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: hibagent-config.cfg
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pam.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pam.d/authconfig-tui
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pam.d/chfn
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pam.d/postlogin-ac
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pam.d/runuser
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pam.d/sudo-i
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pam.d/crond
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pam.d/fingerprint-auth-ac
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pam.d/smartcard-auth-ac
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pam.d/smtp.sendmail
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pam.d/passwd
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pam.d/su-l
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pam.d/su
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pam.d/atd
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pam.d/remote
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pam.d/runuser-l
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pam.d/config-util
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pam.d/authconfig
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pam.d/sudo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pam.d/chsh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pam.d/screen
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pam.d/other
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pam.d/system-auth-ac
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pam.d/run_init
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pam.d/password-auth-ac
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pam.d/sshd
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pam.d/login
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: profile.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: profile.d/colorgrep.csh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: profile.d/which2.sh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: profile.d/aws-apitools-common.sh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: profile.d/lang.csh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: profile.d/colorgrep.sh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: profile.d/less.sh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: profile.d/less.csh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: profile.d/aws-cli.sh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: profile.d/colorls.csh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: profile.d/lang.sh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: profile.d/vim.sh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: profile.d/colorls.sh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: profile.d/vim.csh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: mail
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: mail/mailertable
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: mail/submit.mc
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: mail/submit.cf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: mail/helpfile
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: mail/sendmail.mc
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: mail/domaintable
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: mail/Makefile
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: mail/access
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: mail/mailertable.db
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::---
+
+# file: mail/local-host-names
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: mail/sendmail.cf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: mail/virtusertable
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: mail/make
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: mail/trusted-users
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: mail/domaintable.db
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::---
+
+# file: mail/aliasesdb-stamp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: mail/access.db
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::---
+
+# file: mail/virtusertable.db
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::---
+
+# file: idmapd.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: adjtime
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: screenrc
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: e2fsck.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: cron.monthly
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: system-release
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: jvm
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sasl2
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sasl2/Sendmail.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: anacrontab
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: alternatives
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: fonts
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: fonts/conf.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: fonts/conf.d/README
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: fonts/conf.d/25-no-bitmap-dist.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: fonts/fonts.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: fonts/fonts.dtd
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: fonts/conf.avail
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: fonts/conf.avail/70-no-bitmaps.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: fonts/conf.avail/80-delicious.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: fonts/conf.avail/25-unhint-nonlatin.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: fonts/conf.avail/10-unhinted.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: fonts/conf.avail/50-user.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: fonts/conf.avail/10-autohint.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: fonts/conf.avail/10-no-sub-pixel.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: fonts/conf.avail/69-unifont.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: fonts/conf.avail/40-nonlatin.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: fonts/conf.avail/65-khmer.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: fonts/conf.avail/49-sansserif.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: fonts/conf.avail/30-urw-aliases.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: fonts/conf.avail/10-sub-pixel-vrgb.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: fonts/conf.avail/65-nonlatin.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: fonts/conf.avail/20-fix-globaladvance.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: fonts/conf.avail/10-sub-pixel-rgb.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: fonts/conf.avail/20-unhint-small-vera.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: fonts/conf.avail/90-synthetic.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: fonts/conf.avail/70-yes-bitmaps.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: fonts/conf.avail/60-latin.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: fonts/conf.avail/10-sub-pixel-bgr.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: fonts/conf.avail/51-local.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: fonts/conf.avail/30-metric-aliases.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: fonts/conf.avail/65-fonts-persian.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: fonts/conf.avail/10-sub-pixel-vbgr.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: fonts/conf.avail/45-latin.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: at.deny
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: java
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: java/java.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: java/jpackage-release
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: java/font.properties
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: security
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: security/console.perms
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: security/pam_env.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: security/console.perms.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: security/sepermit.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: security/console.handlers
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: security/time.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: security/access.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: security/chroot.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: security/opasswd
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: security/group.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: security/namespace.init
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: security/limits.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: security/limits.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: security/namespace.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: security/pwquality.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: security/namespace.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: security/console.apps
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: security/console.apps/authconfig-tui
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: security/console.apps/authconfig
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: amazon
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: amazon/ssm
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: amazon/ssm/amazon-ssm-agent.json.template
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: amazon/ssm/RELEASENOTES.md
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: amazon/ssm/README.md
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: amazon/ssm/seelog.xml.template
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: amazon/ssm/NOTICE.md
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: amazon/ssm/seelog.xml
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: man_db.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: group
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: libaudit.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::---
+
+# file: dbus-1
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dbus-1/system.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: dbus-1/session.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dbus-1/session.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: dbus-1/system.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dbus-1/system.d/Upstart.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: protocols
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: csh.cshrc
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: magic
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: rpc
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: dracut.conf.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dracut.conf.d/01-microcode.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: krb5.conf.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: maven
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: maven/maven2-depmap.xml
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: NetworkManager
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: NetworkManager/dispatcher.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: NetworkManager/dispatcher.d/10-dhclient
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: NetworkManager/dispatcher.d/05-netfs
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: NetworkManager/dispatcher.d/00-netreport
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: NetworkManager/dispatcher.d/10-sendmail
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rsyslog.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rsyslog.d/21-cloudinit.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: libreport
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: libreport/events.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: libreport/events.d/mdadm_event.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: nfsmount.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: acpi
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: acpi/actions
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: acpi/actions/power.sh
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: acpi/actions/sleep.sh
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: acpi/events
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: acpi/events/videoconf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: acpi/events/powerconf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: acpi/events/sleepconf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: blkid
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: blkid/blkid.tab
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: ld.so.conf.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: ld.so.conf.d/kernel-4.14.203-116.332.amzn1.x86_64.conf
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: ld.so.conf.d/kernel-4.14.181-108.257.amzn1.x86_64.conf
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: lvm
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: lvm/lvmlocal.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: lvm/archive
+# owner: root
+# group: root
+user::rwx
+group::---
+other::---
+
+# file: lvm/backup
+# owner: root
+# group: root
+user::rwx
+group::---
+other::---
+
+# file: lvm/profile
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: lvm/profile/command_profile_template.profile
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: lvm/profile/metadata_profile_template.profile
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: lvm/profile/cache-smq.profile
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: lvm/profile/cache-mq.profile
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: lvm/profile/thin-generic.profile
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: lvm/profile/thin-performance.profile
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: lvm/profile/lvmdbusd.profile
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: lvm/cache
+# owner: root
+# group: root
+user::rwx
+group::---
+other::---
+
+# file: lvm/lvm.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: gshadow
+# owner: root
+# group: root
+user::---
+group::---
+other::---
+
+# file: audisp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::---
+
+# file: audisp/audispd.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::---
+
+# file: audisp/plugins.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::---
+
+# file: audisp/plugins.d/syslog.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::---
+
+# file: audisp/plugins.d/af_unix.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::---
+
+# file: passwd
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: nanorc
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: hosts
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: dumpdates
+# owner: root
+# group: disk
+user::rw-
+group::rw-
+other::r--
+
+# file: cron.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: cron.d/raid-check
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: cron.d/update-motd
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: cron.d/0hourly
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: netconfig
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: mke2fs.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: cloud
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: cloud/cloud.cfg
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: cloud/cloud.cfg.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: cloud/cloud.cfg.d/README
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: cloud/cloud.cfg.d/00_defaults.cfg
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: cloud/cloud.cfg.d/10_aws_yumvars.cfg
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: cloud/cloud.cfg.d/05_logging.cfg
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: cloud/templates
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: cloud/templates/chef_client.rb.tmpl
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: cloud/templates/hosts.redhat.tmpl
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: cloud/templates/sources.list.debian.tmpl
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: cloud/templates/hosts.suse.tmpl
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: cloud/templates/resolv.conf.tmpl
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: cloud/templates/hosts.debian.tmpl
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: cloud/templates/hosts.freebsd.tmpl
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: cloud/templates/sources.list.ubuntu.tmpl
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: cron.hourly
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: cron.hourly/0anacron
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: yum.repos.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: yum.repos.d/amzn-main.repo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: yum.repos.d/epel.repo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: yum.repos.d/amzn-updates.repo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: yum.repos.d/amzn-preview.repo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: yum.repos.d/amzn-nosrc.repo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: yum.repos.d/epel-testing.repo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: update-motd.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: update-motd.d/30-banner
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: update-motd.d/70-available-updates
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: update-motd.d/75-system-update
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: terminfo
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: jvm-commmon
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: fstab
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: shadow-
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: request-key.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: request-key.d/id_resolver.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: groff
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: groff/site-tmac
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: groff/site-tmac/mdoc.local
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: groff/site-tmac/man.local
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: groff/site-font
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/cpupower
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/quota_nld
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/iptables-config
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: sysconfig/rdisc
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/ntpdate
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/cgconfig
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/network
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/rngd
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::---
+
+# file: sysconfig/crond
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: sysconfig/i18n
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/keyboard
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/modules
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/modules/acpiphp.modules
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/ip6tables-config
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: sysconfig/clock
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/saslauthd
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/raid-check
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/atd
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/rsyslog
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/auditd
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::---
+
+# file: sysconfig/irqbalance
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/cbq
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/cbq/cbq-0000.example
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/cbq/avpkt
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/network-scripts
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/network-scripts/ifdown-ippp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/network-scripts/ifcfg-eth0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/network-scripts/ec2net.hotplug
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/network-scripts/ifup-sit
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/network-scripts/net.hotplug
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/network-scripts/ifcfg-lo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/network-scripts/ifup-bnep
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/network-scripts/ifup-ppp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/network-scripts/ifup-ippp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/network-scripts/ifup-routes
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/network-scripts/ifup-plip
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/network-scripts/ifup-wireless
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/network-scripts/ifup-eth
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/network-scripts/ifup-plusb
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/network-scripts/ifup-tunnel
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/network-scripts/network-functions-ipv6
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/network-scripts/ifup-aliases
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/network-scripts/route-eth0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/network-scripts/ifup-ipv6
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/network-scripts/ifdown-eth
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/network-scripts/init.ipv6-global
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/network-scripts/ifdown-post
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/network-scripts/ifup-post
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/network-scripts/ec2net-functions
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/network-scripts/ifdown-bnep
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/network-scripts/ifdown-tunnel
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/network-scripts/ifdown-routes
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/network-scripts/ifdown-ipv6
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/network-scripts/ifdown-ppp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/network-scripts/network-functions
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/network-scripts/ifdown-sit
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/acpid
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/ntpd
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/cgred.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/console
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/authconfig
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/nfs
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/man-db
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/readonly-root
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/networking
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/networking/profiles
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/networking/profiles/default
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/networking/devices
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysconfig/sendmail
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/netconsole
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/init
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysconfig/sshd
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::---
+
+# file: default
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: default/nss
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: default/useradd
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: aliases.db
+# owner: root
+# group: smmsp
+user::rw-
+group::r--
+other::---
+
+# file: ssh
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: ssh/ssh_host_rsa_key
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: ssh/ssh_host_dsa_key
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: ssh/ssh_host_ecdsa_key.pub
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: ssh/ssh_config
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: ssh/ssh_host_ecdsa_key
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: ssh/moduli
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: ssh/ssh_host_rsa_key.pub
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: ssh/ssh_host_ed25519_key.pub
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: ssh/ssh_host_ed25519_key
+# owner: root
+# group: ssh_keys
+user::rw-
+group::r--
+other::---
+
+# file: ssh/sshd_config
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: ssh/ssh_host_dsa_key.pub
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: X11
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: X11/prefdm
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: X11/fontpath.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: X11/applnk
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bash_completion.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bash_completion.d/yum-utils.bash
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: bash_completion.d/yum
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: bash_completion.d/aws_bash_completer
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: inittab
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: popt.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sestatus.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: openldap
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: openldap/ldap.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: openldap/certs
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: openldap/certs/secmod.db
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: openldap/certs/key3.db
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: openldap/certs/password
+# owner: root
+# group: root
+user::r--
+group::---
+other::---
+
+# file: openldap/certs/cert8.db
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: mailcap
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: printcap
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: group-
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: crontab
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: profile
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pm
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pm/config.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pm/config.d/defaults
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pm/power.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pm/sleep.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rwtab
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: logrotate.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: chkconfig.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pki
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pki/nss-legacy
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pki/nss-legacy/nss-rhel7.config
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pki/java
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pki/ca-trust
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pki/ca-trust/ca-legacy.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pki/ca-trust/README
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pki/ca-trust/source
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pki/ca-trust/source/README
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pki/ca-trust/source/blacklist
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pki/ca-trust/source/anchors
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pki/ca-trust/extracted
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pki/ca-trust/extracted/pem
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pki/ca-trust/extracted/pem/README
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pki/ca-trust/extracted/pem/tls-ca-bundle.pem
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: pki/ca-trust/extracted/pem/objsign-ca-bundle.pem
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: pki/ca-trust/extracted/pem/email-ca-bundle.pem
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: pki/ca-trust/extracted/README
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pki/ca-trust/extracted/openssl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pki/ca-trust/extracted/openssl/README
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pki/ca-trust/extracted/openssl/ca-bundle.trust.crt
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: pki/ca-trust/extracted/java
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pki/ca-trust/extracted/java/README
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pki/ca-trust/extracted/java/cacerts
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: pki/rsyslog
+# owner: root
+# group: root
+user::rwx
+group::---
+other::---
+
+# file: pki/rpm-gpg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pki/rpm-gpg/RPM-GPG-KEY-EPEL-6
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pki/rpm-gpg/RPM-GPG-KEY-amazon-beta
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pki/rpm-gpg/RPM-GPG-KEY-amazon-ga
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pki/CA
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pki/CA/newcerts
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pki/CA/crl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pki/CA/private
+# owner: root
+# group: root
+user::rwx
+group::---
+other::---
+
+# file: pki/CA/certs
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pki/nssdb
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pki/nssdb/key4.db
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pki/nssdb/secmod.db
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pki/nssdb/key3.db
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pki/nssdb/cert9.db
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pki/nssdb/cert8.db
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pki/nssdb/pkcs11.txt
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pki/backup-traditional-recent-config
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pki/backup-traditional-recent-config/cacerts
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pki/backup-traditional-recent-config/ca-bundle.crt
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pki/backup-traditional-recent-config/ca-bundle.trust.crt
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pki/tls
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pki/tls/misc
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pki/tls/misc/c_name
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pki/tls/misc/c_issuer
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pki/tls/misc/c_info
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pki/tls/misc/CA
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pki/tls/misc/c_hash
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pki/tls/openssl.cnf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pki/tls/private
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pki/tls/certs
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pki/tls/certs/renew-dummy-cert
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pki/tls/certs/make-dummy-cert
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pki/tls/certs/Makefile
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pki/backup-traditional-original-config
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pki/backup-traditional-original-config/cacerts
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pki/backup-traditional-original-config/ca-bundle.crt
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: pki/backup-traditional-original-config/ca-bundle.trust.crt
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: mime.types
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: passwd-
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: vimrc
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: cron.deny
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: login.defs
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: localtime
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: cron.weekly
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: wgetrc
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: hosts.deny
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sysctl.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sysctl.d/00-defaults.conf
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: gssapi_mech.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: cgconfig.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: bashrc
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: udev
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: udev/rules.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: udev/rules.d/51-ec2-hvm-devices.rules
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: udev/rules.d/60-raw.rules
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: udev/rules.d/53-ec2-network-interfaces.rules
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: udev/rules.d/60-cdrom_id.rules
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: udev/rules.d/70-ec2-nvme-devices.rules
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: udev/rules.d/75-persistent-net-generator.rules
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: udev/rules.d/52-ec2-vcpu.rules
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: udev/udev.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: ld.so.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: image-id
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: smrsh
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: depmod.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: depmod.d/dist.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: hosts.allow
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sudo.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::---
+
+# file: os-release
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: request-key.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: tmpfiles.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: tmpfiles.d/libselinux.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: securetty
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: inputrc
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: audit
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::---
+
+# file: audit/audit-stop.rules
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::---
+
+# file: audit/rules.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::---
+
+# file: audit/rules.d/audit.rules.default
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::---
+
+# file: audit/audit.rules
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::---
+
+# file: audit/auditd.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::---
+
+# file: exports.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: aliases
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: krb5.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: sudoers.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::---
+
+# file: sudoers.d/cloud-init
+# owner: root
+# group: root
+user::r--
+group::r--
+other::---
+
+# file: sudoers.d/ssm-agent-users
+# owner: root
+# group: root
+user::r--
+group::r--
+other::---
+
+# file: ntp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: ntp/step-tickers
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: ntp/crypto
+# owner: root
+# group: ntp
+user::rwx
+group::r-x
+other::---
+
+# file: ntp/crypto/pw
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: ntp/keys
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: statetab.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: ethers
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: environment
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: DIR_COLORS.256color
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: virc
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: services
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: ntp.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: gnupg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: issue.net
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: yum
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: yum/fssnap.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: yum/protected.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: yum/version-groups.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: yum/pluginconf.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: yum/pluginconf.d/upgrade-helper.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: yum/pluginconf.d/priorities.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: yum/pluginconf.d/update-motd.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: yum/vars
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: yum/vars/awsdomain
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: yum/vars/awsregion
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: motd.rpmsave
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: nsswitch.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: system-release-cpe
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: rsyslog.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: hibinit-config.cfg
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: gcrypt
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: filesystems
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: prelink.conf.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: prelink.conf.d/nss-softokn-prelink.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: yum.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: DIR_COLORS.lightbgcolor
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: iproute2
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: iproute2/rt_protos
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: iproute2/group
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: iproute2/rt_tables
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: iproute2/rt_scopes
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: iproute2/ematch_map
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: iproute2/nl_protos
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: iproute2/rt_realms
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: iproute2/rt_dsfield
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: rc.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/rc6.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/rc.local
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/rc1.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/rc5.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/rc4.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/rc.sysinit
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/quota_nld
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/nfslock
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/messagebus
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/rdisc
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/ntpdate
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/cgconfig
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/network
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/rngd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/rpcgssd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/crond
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/rpcsvcgssd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/halt
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/ip6tables
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/saslauthd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/iptables
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/lvm2-lvmetad
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/rpcbind
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/atd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/rsyslog
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/cloud-final
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/auditd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/irqbalance
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/cgred
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/cloud-init-local
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/functions
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: rc.d/init.d/single
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/acpid
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/cloud-init
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/psacct
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/ntpd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/killall
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/nfs
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/cloud-config
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/blk-availability
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/netfs
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/hibinit-agent
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/rpcidmapd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/lvm2-monitor
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/lvm2-lvmpolld
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/hibagent
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/sendmail
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/netconsole
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/sshd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/udev-post
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/init.d/mdmonitor
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/rc0.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/rc
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/rc3.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: rc.d/rc2.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: .java
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: .java/.systemPrefs
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: init
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: init/rcS-sulogin.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: init/print-image-id.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: init/start-ttys.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: init/elastic-network-interfaces.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: init/serial.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: init/splash-manager.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: init/prefdm.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: init/init-system-dbus.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: init/amazon-ssm-agent.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: init/update-motd.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: init/rc.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: init/rcS.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: init/control-alt-delete.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: init/tty.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: init/plymouth-shutdown.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: init/rcS-emergency.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: init/quit-plymouth.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: init/kexec-disable.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: ssl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: skel
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: skel/.bash_logout
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: skel/.bashrc
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: skel/.bash_profile
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: exports
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: selinux
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: selinux/semanage.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: dhcp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::---
+
+# file: dhcp/dhclient.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dhcp/dhclient.d/ec2dhcp.sh
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dhcp/dhclient.d/ntp.sh
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dhcp/dhclient-exit-hooks.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dhcp/dhclient-exit-hooks.d/azure-cloud.sh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: dhcp/dhclient.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: csh.login
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: GREP_COLORS
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: gshadow-
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: pkcs11
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: pkcs11/modules
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: shells
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: statetab
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: libuser.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
